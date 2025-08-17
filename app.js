@@ -17,6 +17,15 @@
     // ——— Tool (link “Apri” puntano direttamente a GitHub Pages)
     const tools = [
       {
+        id: 'flowerpixel',
+        title: 'Training – Flower Pixel',
+        desc: 'Pattern da immagine con jitter, contrasto e palette.',
+        tags: ['p5.js','grafica'],
+        href: 'https://leowl-m.github.io/training-flowerpixel/',
+        repoHref: 'https://github.com/leowl-M/training-flowerpixel.git',
+        addedAt: '2025-07-02T08:00:00Z'
+      },
+      {
         id: 'collage',
         title: 'Training – Collage',
         desc: 'Strumento p5.js per creare collage dinamici.',
