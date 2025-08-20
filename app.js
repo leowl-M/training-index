@@ -22,7 +22,7 @@
         desc: 'Pattern da immagine con jitter, contrasto e palette.',
         tags: ['p5.js','grafica'],
         href: 'https://leowl-m.github.io/training-flowerpixel/',
-        repoHref: 'https://github.com/leowl-M/training-flowerpixel.git',
+        //repoHref: 'https://github.com/leowl-M/training-flowerpixel.git',
         addedAt: '2025-07-02T08:00:00Z'
       },
       {
@@ -31,25 +31,25 @@
         desc: 'Strumento p5.js per creare collage dinamici.',
         tags: ['p5.js','immagini'],
         href: 'https://leowl-M.github.io/training-collage/',
-        repoHref: 'https://github.com/leowl-M/training-collage',
+        //repoHref: 'https://github.com/leowl-M/training-collage',
         addedAt: '2025-06-20T10:00:00Z'
       },
       {
         id: 'blobtracking',
         title: 'Training – Blob Tracking',
-        desc: 'Rilevamento e tracciamento di blob per esperimenti interattivi.',
+        desc: 'Rilevamento e tracciamento di blob.',
         tags: ['p5.js','computer-vision'],
         href: 'https://leowl-M.github.io/training-blobtracking/',
-        repoHref: 'https://github.com/leowl-M/training-blobtracking',
+        //repoHref: 'https://github.com/leowl-M/training-blobtracking',
         addedAt: '2025-05-11T09:00:00Z'
       },
       {
         id: 'dithering',
         title: 'Training – Dithering',
-        desc: 'Dither e posterizzazione per effetti grafici.',
+        desc: 'Dither e posterizzazione.',
         tags: ['p5.js','grafica'],
         href: 'https://leowl-M.github.io/training-dithering/',
-        repoHref: 'https://github.com/leowl-M/training-dithering',
+        //repoHref: 'https://github.com/leowl-M/training-dithering',
         addedAt: '2025-04-02T08:00:00Z'
       }
     ];
