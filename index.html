@@ -1,50 +1,56 @@
-<!doctype html>
-<html lang="it" data-theme="dark">
+<!DOCTYPE html>
+<html lang="it">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-  <title>Training Index</title>
-  <meta name="description" content="Raccolta centralizzata dei tuoi tool p5.js." />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%230f1724'/%3E%3Cpath d='M10 17.5h12v2H10zm0-5h12v2H10z' fill='%23e5e9f0'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Index</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23FFFF00'/></svg>">  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
 </head>
 <body>
-  <!-- Topbar -->
-  <header class="topbar" role="banner">
-    <div class="brand" aria-label="training home">
-      <h1>Training Index</h1>
-    </div>
-    <div class="topbar-right">
-      <button id="themeToggle" class="iconbtn" aria-label="Cambia tema" title="Cambia tema">🌓</button>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container header-inner">
+      <div class="title-group">
+        <h1>
+          Index
+        </h1>
+      </div>
+      <div class="count-badge" id="projectCount">0 Index(es)</div>
     </div>
   </header>
 
-  <main class="wrap" id="app" role="main">
-    <!-- Controlli -->
-    <div class="controls" aria-label="controlli elenco">
-      <div class="search">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M21 21l-3.9-3.9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="11" cy="11" r="6.5" stroke="currentColor" stroke-width="1.8"/></svg>
-        <label class="visually-hidden" for="q">Cerca</label>
-        <input id="q" type="search" placeholder="Cerca per nome, tag o descrizione…" autocomplete="off">
+  <!-- MAIN -->
+  <main class="container">
+    
+    <div class="controls">
+      <div class="search-box">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="text" id="searchInput" placeholder="Cerca tool (premi '/')..." autocomplete="off" />
       </div>
-      <div class="row">
-        <label class="visually-hidden" for="order">Ordina</label>
-        <select id="order" class="select" aria-label="Ordina">
+
+      <div class="filters">
+        <select id="sortSelect">
           <option value="added_desc">Più recenti</option>
-          <option value="alpha">A–Z</option>
-          <option value="alpha_desc">Z–A</option>
+          <option value="alpha">Alfabetico (A-Z)</option>
+          <option value="alpha_desc">Alfabetico (Z-A)</option>
         </select>
+        <div class="divider"></div>
+        <div class="view-toggles">
+          <button class="btn-icon active" id="btnGrid" title="Vista a griglia">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></svg>
+          </button>
+          <button class="btn-icon" id="btnList" title="Vista a lista">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" x2="21" y1="6" y2="6"/><line x1="8" x2="21" y1="12" y2="12"/><line x1="8" x2="21" y1="18" y2="18"/><line x1="3" x2="3.01" y1="6" y2="6"/><line x1="3" x2="3.01" y1="12" y2="12"/><line x1="3" x2="3.01" y1="18" y2="18"/></svg>
+          </button>
+        </div>
       </div>
     </div>
 
-    <div id="chips" class="chips" aria-label="filtri per tag"></div>
+    <div class="tags-wrap" id="tagsContainer"></div>
+    <div class="projects-container" id="gridContainer"></div>
 
-    <!-- Griglia -->
-    <section id="grid" class="grid" aria-live="polite"></section>
-
-    <footer>Tip: premi <kbd>/</kbd> per cercare • Tema e preferenze salvati in locale</footer>
   </main>
-
-  <script src="app.js" defer></script>
 </body>
 </html>
