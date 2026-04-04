@@ -15,7 +15,7 @@ const PROJECTS = [
       desc: 'Pattern da immagine con jitter, contrasto e palette. Ottimo per effetti glitch e dithering artistico.',
       tags: ['p5.js'],
       href: 'https://leowl-m.github.io/training-flowerpixel/',
-      repoHref: 'https://github.com/leowl-M/training-flowerpixel',
+    //   repoHref: 'https://github.com/leowl-M/training-flowerpixel',
       addedAt: '2025-07-02T08:00:00Z',
       status: 'stable',
       version: '1.0',
