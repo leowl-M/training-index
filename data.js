@@ -80,4 +80,14 @@ const PROJECTS = [
       status: 'wip',
       version: '1.0',
     },
+    {
+      id: 'distortion',
+      title: 'Distortion',
+      desc: 'Generatore di immagini basato su distorsione e displacement map.',
+      tags: ['p5.js'],
+      href: 'https://leowl-m.github.io/training-distortion/',
+      addedAt: '2026-04-09T08:00:00Z',
+      status: 'wip',
+      version: '1.0',
+    },
   ];
