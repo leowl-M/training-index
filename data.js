@@ -18,7 +18,7 @@ const PROJECTS = [
     //   repoHref: 'https://github.com/leowl-M/training-flowerpixel',
       addedAt: '2025-07-02T08:00:00Z',
       status: 'stable',
-      version: '1.0',
+      version: '2.0',
     },
     {
       id: 'officinaditheris',
@@ -77,8 +77,8 @@ const PROJECTS = [
       tags: ['p5.js'],
       href: 'https://leowl-m.github.io/article-image/',
       addedAt: '2025-04-02T08:00:00Z',
-      status: 'wip',
-      version: '1.0',
+      status: 'stable',
+      version: '2.0',
     },
     {
       id: 'distortion',
