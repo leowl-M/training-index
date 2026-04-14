@@ -48,7 +48,7 @@ const PROJECTS = [
       href: 'https://leowl-M.github.io/training-collage/',
       addedAt: '2025-06-20T10:00:00Z',
       status: 'stable',
-      version: '1.0',
+      version: '2.0',
     },
     {
       id: 'blobtracking',
