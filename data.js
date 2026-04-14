@@ -58,7 +58,7 @@ const PROJECTS = [
       href: 'https://leowl-M.github.io/training-blobtracking/',
       addedAt: '2025-05-11T09:00:00Z',
       status: 'stable',
-      version: '1.0',
+      version: '2.0',
     },
     {
       id: 'dithering',
