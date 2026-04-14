@@ -100,4 +100,14 @@ const PROJECTS = [
       status: 'wip',
       version: '1.0',
     },
+    {
+      id: 'typenoise',
+      title: 'Type Noise',
+      desc: 'Generatore layout tipografici.',
+      tags: ['p5.js'],
+      href: 'https://leowl-m.github.io/training-textnoise/',
+      addedAt: '2026-04-14T12:40:00Z',
+      status: 'wip',
+      version: '1.0',
+    },
   ];
