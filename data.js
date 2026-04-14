@@ -90,4 +90,14 @@ const PROJECTS = [
       status: 'wip',
       version: '1.0',
     },
+    {
+      id: 'typeshot',
+      title: 'TypeShot',
+      desc: 'Generatore layout tipografici.',
+      tags: ['p5.js'],
+      href: 'https://leowl-m.github.io/training-distortion/',
+      addedAt: '2026-04-14T08:59:00Z',
+      status: 'wip',
+      version: '1.0',
+    },
   ];
