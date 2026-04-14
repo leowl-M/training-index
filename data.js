@@ -35,7 +35,7 @@ const PROJECTS = [
       title: 'Modulink',
       desc: "Strumento per Figma che automatizza l'organizzazione dei link tra frame e componenti nel tuo progetto.",
       tags: ['Figma'],
-      href: 'https://www.figma.com/community/plugin/1556657188945716249/officina-ditheris',
+      href: 'https://www.figma.com/community/plugin/1609560384487730743/modulink',
       addedAt: '2026-04-04T21:30:00Z',
       status: 'online',
       version: '1.1',
