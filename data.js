@@ -68,7 +68,7 @@ const PROJECTS = [
       href: 'https://leowl-M.github.io/training-dithering/',
       addedAt: '2025-04-02T08:00:00Z',
       status: 'stable',
-      version: '1.0',
+      version: '2.0',
     },
     {
       id: 'articleimage',
