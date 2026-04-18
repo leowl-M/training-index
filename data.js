@@ -115,7 +115,7 @@ const PROJECTS = [
       title: 'Controller',
       desc: 'Generatore layout tipografici.',
       tags: ['p5.js'],
-      href: 'https://leowl-m.github.io/training-controller/,
+      href: 'https://leowl-m.github.io/training-controller/',
       addedAt: '2026-04-18T19:24:00Z',
       status: 'wip',
       version: '1.0',
