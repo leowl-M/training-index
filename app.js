@@ -26,7 +26,7 @@ let state = {
   search: "",
   activeTag: "all",
   sortOrder: "added_desc",
-  viewMode: "grid",
+  viewMode: "list",
   page: 1,
 };
 
@@ -48,7 +48,8 @@ function syncURL() {
   if (state.search) p.set("q", state.search);
   if (state.activeTag !== "all") p.set("tag", state.activeTag);
   if (state.sortOrder !== "added_desc") p.set("sort", state.sortOrder);
-  if (state.viewMode !== "grid") p.set("view", state.viewMode);
+  // Default: list. Mettiamo il parametro solo se diverso dal default.
+  if (state.viewMode !== "list") p.set("view", state.viewMode);
   const qs = p.toString();
   history.replaceState(null, "", qs ? "?" + qs : location.pathname);
 }
