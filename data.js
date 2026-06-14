@@ -180,4 +180,16 @@ const PROJECTS = [
       status: 'wip',
       version: '1.0',
     },
+    {
+      id: 'life-potenza',
+      title: 'GFP',
+      desc: 'Generatore di cartoline',
+      tags: ['p5.js'],
+      href: 'https://leowl-m.github.io/training-GFP/',
+      addedAt: '2026-06-14T11:24:00Z',
+      status: 'stable',
+      version: '1.0',
+    },
   ];
+
+
